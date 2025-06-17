@@ -49,7 +49,7 @@ Args for processing:
 - `--crop x,y,width,height`: Specify bounds to crop the input video to only contain the game footage.   Default is full video screen
 - `--heart-thresholds pixel,count`: Thresholds for matching heart container.
   The first number is pixel similarity and second number is how many pixels need to match. For both numbers, lower means stricter match. Default is `50,130`
-- `--skip-button-threshold pixel,count`: Similar to above but for matching skip button at the end of shrine cut scene. Default is `75,120`
+- `--skip-button-thresholds pixel,count`: Similar to above but for matching skip button at the end of shrine cut scene. Default is `75,120`
 - `--min-interval frames`: minimum number of frames to be considered a cutscene. Default is 10
 - `--streak frames`: minimum number of frames to hit before considering it is or is not
   a cutscene. Default is 15

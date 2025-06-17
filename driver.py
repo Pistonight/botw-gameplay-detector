@@ -62,7 +62,7 @@ def main_process(args: list[str]) -> str:
                 exit(1)
             heart_pixel_thres = parts[0]
             heart_thres = parts[1]
-        elif flag == "--skip-button-threshold":
+        elif flag == "--skip-button-thresholds":
             try:
                 parts = [int(x.strip()) for x in arg.split(",") ]
                 if len(parts) != 2:
